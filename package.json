@@ -1,17 +1,22 @@
 {
-  "name": "koa-boot",
+  "name": "angular-boot",
   "version": "1.0.0",
-  "description": "quick template to jumpstart koa backend",
+  "description": "quick scaffold for angular front end",
   "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node server.js"
   },
   "keywords": [
-    "koa",
-    "es6",
-    "backend",
-    "server",
-    "koajs"
+    "angular",
+    "angularjs",
+    "single",
+    "page",
+    "apps",
+    "spa"
   ],
   "author": "Han Kim",
   "license": "MIT",
@@ -21,7 +26,6 @@
     "koa-logger": "^1.3.0",
     "koa-route": "^2.4.2",
     "koa-static": "^1.4.9",
-    "marked": "^0.3.5",
     "nodemon": "^1.7.1"
   },
   "engines": {

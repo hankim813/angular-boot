@@ -1,6 +1,6 @@
-# Koa-boot
+# Angular-boot
 
-A simple scaffold for a Koa backend to get your server up and running.
+A simple scaffold for a Angular frontend to get your client app up and running.
 
 ## Usage
 
